@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+/* ..........................MAIN Styling ................... */
+.main{
+    width: 60%;
+    max-width: 1200px;
+    margin: 4rem auto;
+}
+
+/* ...................... Utility Classes ............................ */
+.heading1{
+    font-size: 4rem;
+}
+.heading2{
+    font-size: 3rem;
+}
+.heading3{
+    font-size: 2rem;
+}
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
+.correct{
+    background-color: lightgreen;
+    color: green;
+}
+.wrong{
+    background-color: pink;
+    color: red;
+}
+
+/* ...........................STATEMENT STYLING .................. */
+.main p{
+    margin: 1rem 0;
+}
+.statement{
+    /* border: 2px solid red; */
+    width: 100%;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px gray;
+    text-align: center;
+    padding: 1.2em;
+    margin: 2rem 0;
+
+}
+.answer{
+    width: 100%;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px gray;
+    text-align: center;
+    padding: 1em;
+    margin: 2rem 0;
+
+
+}
+.next{
+    width: 100%;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px gray;
+    text-align: center;
+    padding: 1em;
+    margin: 2rem 0;
+
+}
+.check{
+    width: 100%;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px gray;
+    text-align: center;
+    padding: 1em;
+    margin: 2rem 0;
+
+}
+.scoreboard{
+    width: 50%;
+    right: 0;
+    /* border: 2px solid red; */
+    margin-left: 50%;
+    text-align: right;
+    padding: 1em;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.input{
+    width: 100%;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px gray;
+    text-align: center;
+    /* padding-top: 1em; */
+    margin: 2rem 0;
+   
+}
+.input #inputarea{
+    width: 100%;
+    /* height: 8rem; */
+    border-radius: 50px;
+    border-style: none;
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 1em;
+
+    /* padding: 1em; */
+}
+/* .................MIC Styling .................... */
+.mic{
+    width: 50px;
+    height: 50x;
+    margin: 0 auto;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px gray;
+        
+}
+.mic img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px gray;
+    
+}
